@@ -1,0 +1,28 @@
+.item-card{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #0295DB;
+}
+
+.item-card img{
+    width: 150px;
+    margin: 5px;
+}
+
+.item-card h2{
+    margin: 5px;
+}
+
+.item-card button{
+    background-color: red;
+    color: white;
+    padding: 4px;
+    margin: 5px;
+}
+
+.item-card button:active{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}

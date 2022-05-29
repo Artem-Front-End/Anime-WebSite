@@ -1,0 +1,48 @@
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 3px solid #0295DB;
+}
+
+.background img{
+    width: 96%;
+    margin-bottom: 10px;
+    transform: scale(1);
+    transition: 0.4s;
+}
+
+.background img:hover{
+    transform: scale(1.04);
+}
+
+.trendingText{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+.trendingBlock{
+    text-align: center;
+    --auto-grid-min-size: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1%;
+}
+
+.trend{
+    text-align: center;
+    border-bottom: 2px solid #0295DB;
+}
+
+.trend img{
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.trend img:hover{
+    transform: scale(1.06);
+    box-shadow: 4px 4px 4px #0B0E1B;
+}
